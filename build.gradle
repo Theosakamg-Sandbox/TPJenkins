@@ -1,0 +1,15 @@
+// plugins {
+//     id 'java'
+//    id 'war'
+// }
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation("junit:junit:4.12")
+}
